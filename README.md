@@ -1,16 +1,65 @@
-# React + Vite
+# React Firebase Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application built with React, React Router, and Firebase Authentication.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Registration
+- User Login and Logout
+- Firebase Email and Password Authentication
+- Protected Routes
+- Dashboard for authenticated users
+- Profile page displaying user information
+- Authentication state persists after page refresh
+- Responsive user interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router
+- Firebase Authentication
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/MusharratMahjabin/react-firebase-auth.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd react-firebase-auth
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure your Firebase project in `src/firebase.js` using your Firebase web app configuration. Enable Email/Password authentication in the Firebase Console.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL shown in the terminal.
+
+## Build
+
+To create a production build, run:
+
+```bash
+npm run build
+```
+
+## Repository
+
+[View on GitHub](https://github.com/MusharratMahjabin/react-firebase-auth)
