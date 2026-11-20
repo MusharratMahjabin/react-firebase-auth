@@ -1,5 +1,8 @@
 # React Firebase Authentication
 
+**Student Name:** Musharrat Mahjabin  
+**Student ID:** C243506
+
 A React web application built with React, React Router, and Firebase Authentication.
 
 ## Features
